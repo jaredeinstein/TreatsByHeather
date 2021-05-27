@@ -17,7 +17,7 @@ markdown: kramdown
 title:       "Treats by Heather"
 keywords:    "treats, cookies, cupcakes, chocolate, vanilla"
 description: "Your one stop shop for cookies and treats!"
-source_link: "https://github.com/t413/SinglePaged"
+source_link: "https://treats.einsteinstudios.net"
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)

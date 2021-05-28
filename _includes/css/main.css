@@ -355,3 +355,6 @@ nav ul li:hover, nav ul li.active {
     column-count:         2;
   }
 }
+
+/*  custom  */
+.cursive { font-family: 'Brush Script MT', cursive; }

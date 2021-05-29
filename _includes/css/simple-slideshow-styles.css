@@ -32,7 +32,8 @@ figcaption {
   opacity: 1;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  position: relative; 
+  max-height: 100%;
+  position: absolute; 
 }
 
 .bss-slides figcaption{

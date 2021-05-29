@@ -357,4 +357,7 @@ nav ul li:hover, nav ul li.active {
 }
 
 /*  custom  */
-.cursive { font-family: 'Brush Script MT', cursive; }
+.cursive { 
+  font-family: 'Brush Script MT', cursive; 
+  font-size: 3em;
+}

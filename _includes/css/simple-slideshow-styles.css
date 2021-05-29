@@ -16,6 +16,7 @@ figcaption {
   height: 100%;
   display: flex;
   justify-content: center;
+  background-color: rgb(65 201 213);
 }
 .bss-slides figure:first-child{
   position: relative;

@@ -66,9 +66,14 @@
 <script src="better-simple-slideshow.min.js"></script>
 <script>
 var opts = {
-    auto : false,
-    fullScreen : true,
-    swipe : false
+    auto : { 
+       // speed to advance slides at. accepts number of milliseconds
+       speed : 2500, 
+       // pause advancing on mouseover? accepts boolean
+       pauseOnHover : true 
+            },
+    fullScreen : false,
+    swipe : true
 };
 makeBSS('.num2', opts);
 </script>

@@ -1,0 +1,98 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@jaredeinstein 
+jekylltools
+/
+jekyll-ideal-image-slider-include
+0
+2433
+Code
+Pull requests
+Actions
+Security
+Insights
+jekyll-ideal-image-slider-include/_data/sliders.yml
+@jekylltools
+jekylltools update to 1.5
+Latest commit 1482de5 on Jun 4, 2017
+ History
+ 1 contributor
+58 lines (56 sloc)  1.33 KB
+  
+- selector: slider1
+  bullets: false
+  captions: true
+  images:
+    - src: /img/1.jpg
+      alt: Minimum required attributes
+    - data-src: /img/2.jpg
+      alt: Use data-src for on-demand loading
+    - data-src: /img/3.jpg
+      data-src-2x: /img/3@2x.jpg
+      alt: Use data-src-2x for HiDPI devices
+    - src: /img/4.jpg
+      alt: Links work too
+      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
+  settings:
+    height: 400
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
+
+- selector: slider2
+  bullets: true
+  captions: true
+  images:
+    - src: /img/1.jpg
+      title: Balloons!
+      alt: This slider has caption titles
+    - data-src: /img/2.jpg
+      title: This slider uses the fade effect
+      alt: Instead of the default slide effect
+    - data-src: /img/3.jpg
+      data-src-2x: /img/3@2x.jpg
+    - src: /img/4.jpg
+      title: Last image had no caption!
+      alt: Also, this image has no link
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: slider3
+  images:
+    - src: /img/1.jpg
+      alt: image one
+    - src: /img/2.jpg
+      alt: image two
+    - src: /img/3.jpg
+      alt: image three
+    - src: /img/4.jpg
+      alt: image four
+  settings:
+    height: "'auto'"
+    disableNav: true
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete

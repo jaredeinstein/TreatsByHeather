@@ -17,7 +17,7 @@ markdown: kramdown
 title:       "Treats by Heather"
 keywords:    "treats, cookies, cupcakes, chocolate, vanilla"
 description: "Your one stop shop for cookies and treats!"
-baseurl: ""
+baseurl: "SPTest"
 source_link: "https://treats.einsteinstudios.net"
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"

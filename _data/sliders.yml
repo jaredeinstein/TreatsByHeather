@@ -1,30 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@jaredeinstein 
-jekylltools
-/
-jekyll-ideal-image-slider-include
-0
-2433
-Code
-Pull requests
-Actions
-Security
-Insights
-jekyll-ideal-image-slider-include/_data/sliders.yml
-@jekylltools
-jekylltools update to 1.5
-Latest commit 1482de5 on Jun 4, 2017
- History
- 1 contributor
-58 lines (56 sloc)  1.33 KB
-  
 - selector: slider1
   bullets: false
   captions: true
@@ -83,16 +56,3 @@ Latest commit 1482de5 on Jun 4, 2017
   settings:
     height: "'auto'"
     disableNav: true
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete

@@ -42,6 +42,8 @@
     effect: "'fade'"
 
 - selector: slider1
+  bullets: false
+  captions: true
   images:
     - src: /img/gallery/barbiecake.jpg
       alt: Barbie Cake
@@ -53,4 +55,4 @@
       alt: Swirl Cupcakes
   settings:
     height: "'auto'"
-    disableNav: true
+    disableNav: false

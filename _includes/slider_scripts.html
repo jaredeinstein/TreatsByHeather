@@ -15,7 +15,6 @@
   <script src="{{ "/assets/js/slider/iis-bullet-nav.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/slider/iis-captions.js" | relative_url }}"></script>
   <script>
-    {%- assign i = 0 -%}
   {% for selector in iis_slider_array -%}
     selector: {{ selector }}
     {%- assign slider = site.data.sliders | where:"selector",selector | first -%}

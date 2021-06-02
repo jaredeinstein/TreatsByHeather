@@ -1,5 +1,5 @@
 - selector: slider1
-  bullets: false
+  bullets: true
   captions: true
   images:
     - src: /img/gallery/barbiecake.jpg
@@ -11,13 +11,5 @@
     - src: /img/gallery/onesiecookies.jpg
       alt: Onesie Cookie
   settings:
-    height: 400
-    initialHeight:
-    maxHeight:
-    interval:
-    transitionDuration:
-    effect:
-    disableNav:
-    keyboardNav:
-    previousNavSelector:
-    nextNavSelector:
+    height: "'auto'"
+    effect: "'fade'"

@@ -3,15 +3,13 @@
   captions: true
   images:
     - src: /img/gallery/barbiecake.jpg
-      alt: Minimum required attributes
+      alt: Barbie Cake
     - data-src: /img/gallery/bridalshowertable.jpg
-      alt: Use data-src for on-demand loading
+      alt: Bridal Shower Table
     - data-src: /img/gallery/cookieplatter.jpg
-      data-src-2x: /img/gallery/onesiecookies.jpg
-      alt: Use data-src-2x for HiDPI devices
+      alt: Cookie Platter
     - src: /img/gallery/swirlcupcakes.jpg
-      alt: Links work too
-      href: https://github.com/jekylltools/jekyll-ideal-image-slider-include
+      alt: Swirl Cupcakes
   settings:
     height: 400
     initialHeight:

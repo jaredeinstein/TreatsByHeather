@@ -15,7 +15,10 @@
   <script src="{{ "/assets/js/slider/iis-bullet-nav.js" | relative_url }}"></script>
   <script src="{{ "/assets/js/slider/iis-captions.js" | relative_url }}"></script>
   <script>
+    {%- assign i = 0 -%}
   {% for selector in iis_slider_array -%}
+  {{ i }}
+   {% increment i %}
     {%- assign slider = site.data.sliders | where:"selector",selector | first -%}
     {%- assign settings = slider.settings -%}
     var {{ slider.selector }} = new IdealImageSlider.Slider({
@@ -58,6 +61,7 @@
     {{ slider.selector }}.addCaptions();
     {% endif -%}
     {{ slider.selector }}.start();
+     
   {% endfor -%}
   </script>
 {%- endif -%}

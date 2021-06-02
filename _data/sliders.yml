@@ -4,9 +4,9 @@
   images:
     - src: /img/gallery/barbiecake.jpg
       alt: Barbie Cake
-    - data-src: /img/gallery/bridalshowertable.jpg
+    - src: /img/gallery/bridalshowertable.jpg
       alt: Bridal Shower
-    - data-src: /img/gallery/cookieplatter.jpg
+    - src: /img/gallery/cookieplatter.jpg
       alt: Cookie Platter
     - src: /img/gallery/onesiecookies.jpg
       alt: Onesie Cookie

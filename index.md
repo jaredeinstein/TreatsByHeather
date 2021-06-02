@@ -14,7 +14,7 @@ image_sliders_load_all: true
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
     </ul></nav>
-test tewst
+  
 
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}

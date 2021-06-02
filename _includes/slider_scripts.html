@@ -17,11 +17,11 @@
   <script>
     {%- assign i = 0 -%}
   {% for selector in iis_slider_array -%}
-    {{ selector }}
+    selector: {{ selector }}
     {%- assign slider = site.data.sliders | where:"selector",selector | first -%}
-    {{ slider }}
+    slider: {{ slider }}
     {%- assign settings = slider.settings -%}
-    {{ settings }}
+    settings: {{ settings }}
     var {{ slider.selector }} = new IdealImageSlider.Slider({
       selector: '#{{ slider.selector }}',
       {% if settings.height -%}

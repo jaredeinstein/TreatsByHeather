@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Treats by Heather
-image_sliders_load_all: true
+image_sliders:
+  - slider1
 ---
 
 <div id="main">

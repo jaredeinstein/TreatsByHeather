@@ -23,19 +23,3 @@
     keyboardNav:
     previousNavSelector:
     nextNavSelector:
-    
-- selector: slider2
-  bullets: false
-  captions: true
-  images:
-    - src: /img/gallery/barbiecake.jpg
-      alt: Barbie Cake
-    - src: /img/gallery/bridalshowertable.jpg
-      alt: Bridal Shower Table
-    - src: /img/gallery/cookieplatter.jpg
-      alt: Cookie Platter
-    - src: /img/gallery/swirlcupcakes.jpg
-      alt: Swirl Cupcakes
-  settings:
-    height: "'auto'"
-    disableNav: false

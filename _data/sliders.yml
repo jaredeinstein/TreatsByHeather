@@ -11,5 +11,5 @@
     - src: /img/gallery/onesiecookies.jpg
       alt: Onesie Cookie
   settings:
-    height: "'auto'"
+    height: "400"
     effect: "'fade'"

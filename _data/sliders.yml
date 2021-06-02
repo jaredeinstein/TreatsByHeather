@@ -1,4 +1,4 @@
-- selector: slider1
+- selector: slider3
   bullets: false
   captions: true
   images:
@@ -41,16 +41,16 @@
     height: "'auto'"
     effect: "'fade'"
 
-- selector: slider3
+- selector: slider1
   images:
-    - src: /img/1.jpg
-      alt: image one
-    - src: /img/2.jpg
-      alt: image two
-    - src: /img/3.jpg
-      alt: image three
-    - src: /img/4.jpg
-      alt: image four
+    - src: /img/gallery/barbiecake.jpg
+      alt: Barbie Cake
+    - src: /img/gallery/bridalshowertable.jpg
+      alt: Bridal Shower Table
+    - src: /img/gallery/cookieplatter.jpg
+      alt: Cookie Platter
+    - src: /img/gallery/swirlcupcakes.jpg
+      alt: Swirl Cupcakes
   settings:
     height: "'auto'"
     disableNav: true

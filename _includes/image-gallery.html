@@ -17,8 +17,8 @@
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
 
       <a href="{{ file.path | prepend:site.baseurl }}" title="{{ filename }}">
-        <img src="//images.weserv.nl/?url=jared.einsteinstudios.net/SPTest{{ file.path }}&w=400&h=400&output=jpg&q=50&fit=contain&cbg=0fbfcf" alt="" />
-        <span>{{ filename }}</span>
+        <img src="//images.weserv.nl/?url=jared.einsteinstudios.net/SPTest{{ file.path }}&w=400&h=400&output=jpg&q=50&fit=contain&cbg=0fbfcf" alt="{{ filename }}" />
+        <span></span>
       </a>
     {% endif %}
   {% endif %}

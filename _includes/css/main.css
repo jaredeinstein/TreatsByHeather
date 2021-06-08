@@ -70,7 +70,6 @@ hr {
 
 .container h1, .container h2, .container h3, .container h4 {
   margin-bottom: 20px;
-  line-height: 1.6;
   text-align: center;
   padding: 0 4%;
 }
@@ -362,4 +361,8 @@ nav ul li:hover, nav ul li.active {
 .cursive { 
   font-family: 'Brush Script MT', cursive; 
   font-size: 6em;
+}
+
+#treats .container h1, .container h2, .container h3, .container h4 {
+  line-height: 1.8;
 }
